@@ -18,12 +18,13 @@ Flujo general:
 3. Si el nivel supera el umbral, se activa el LED y se envía una alerta al servidor IoT.
 4. ThingSpeak registra y grafica los eventos.
 5. Herramienta sugerida: Lucidchart o Draw.io
-## 🧠 3. Componentes Utilizados (⭕)
-| Componente             | Descripción                                   | Imagen            |
-| ---------------------- | --------------------------------------------- | ----------------- |
-| Raspberry Pi Pico W    | Microcontrolador principal con WiFi integrado | ![pico](raspberrypi.jpg) |
-| Micrófono I2S INMP441  | Sensor de audio digital con bus I2S           | ![mic](s-l400.png)  |
-| LED + resistencia 220Ω | Alerta visual                                 | ![led](Led.Verde_.webp)  |
+## 🧠 3. Componentes Utilizados 
+| Componente | Descripción | Imagen |
+|-------------|-------------|--------|
+| Raspberry Pi Pico W | Microcontrolador principal con WiFi integrado. | <img src="raspberrypi.jpg" width="180"> |
+| Micrófono I2S INMP441 | Sensor de audio digital con salida I2S. | <img src="s-l400.png" width="180"> |
+| LED + resistencia 220Ω | Alerta visual de detección acústica. | <img src="Led.Verde_.webp" width="180"> |
+
 ## 💻 4. Código Fuente
 📂 Ubicación: src/main.py
 # Lectura de micrófono I2S y detección de ruidos
