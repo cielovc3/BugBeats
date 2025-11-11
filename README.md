@@ -21,9 +21,9 @@ Flujo general:
 ## 🧠 3. Componentes Utilizados (⭕)
 | Componente             | Descripción                                   | Imagen            |
 | ---------------------- | --------------------------------------------- | ----------------- |
-| Raspberry Pi Pico W    | Microcontrolador principal con WiFi integrado | ![pico]([ruta.png](https://www.mouser.pe/images/marketingid/2022/img/127818871.png?v=061025.0725)) |
-| Micrófono I2S INMP441  | Sensor de audio digital con bus I2S           | ![mic](ruta.png)  |
-| LED + resistencia 220Ω | Alerta visual                                 | ![led](ruta.png)  |
+| Raspberry Pi Pico W    | Microcontrolador principal con WiFi integrado | ![pico](raspberrypi.jpg) |
+| Micrófono I2S INMP441  | Sensor de audio digital con bus I2S           | ![mic](s-l400.png)  |
+| LED + resistencia 220Ω | Alerta visual                                 | ![led](Led.Verde_.webp)  |
 ## 💻 4. Código Fuente
 📂 Ubicación: src/main.py
 # Lectura de micrófono I2S y detección de ruidos
